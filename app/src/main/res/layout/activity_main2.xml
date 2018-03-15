@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.king.jerem.imagegallery.View.Main2Activity">
+
+<ImageView
+    android:scaleType="fitCenter"
+    android:id="@+id/imghinh"
+    android:adjustViewBounds="true"
+    android:layout_gravity="center"
+    android:layout_margin="2dp"
+    android:src="@drawable/unnamed"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+    <ProgressBar
+        android:id="@+id/progessbar"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</FrameLayout>
